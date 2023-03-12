@@ -37,7 +37,7 @@ set(SRC_DIRS_LIST
   "${CHIP_ROOT}/src/app/clusters/on-off-server"
 )
 
-set(PRIV_REQUIRES_LIST chip bt app_update nvs_flash)
+set(PRIV_REQUIRES_LIST chip bt nvs_flash)
 
 idf_component_register(
   PRIV_INCLUDE_DIRS ${PRIV_INCLUDE_DIRS_LIST}
