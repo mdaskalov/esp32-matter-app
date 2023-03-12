@@ -14,5 +14,5 @@ set(EXTRA_COMPONENT_DIRS
 
 project(esp32-matter-app)
 
-idf_build_set_property(CXX_COMPILE_OPTIONS "-std=gnu++17;-Os;-DCHIP_HAVE_CONFIG_H" APPEND)
+idf_build_set_property(CXX_COMPILE_OPTIONS "-std=gnu++17;-Os;-Wno-missing-field-initializers;-Wno-maybe-uninitialized;-DCHIP_HAVE_CONFIG_H" APPEND)
 idf_build_set_property(C_COMPILE_OPTIONS "-Os" APPEND)
