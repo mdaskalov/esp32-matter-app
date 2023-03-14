@@ -1,8 +1,8 @@
 # Matter On-Off Switch Application
 
-This application can be used as a starting point to create Matter applications for the ESP32 controller.
+This template can be used as a starting point to create Matter applications for the ESP32 controller.
 
-To compile follow the [connectedhomeip](https://github.com/project-chip/connectedhomeip/blob/bc8c9ece127e42033543ecfa7b03341e6dcff1cc/docs/guides/esp32/setup_idf_chip.md) environment setup and then the [application usage](https://github.com/project-chip/connectedhomeip/blob/bc8c9ece127e42033543ecfa7b03341e6dcff1cc/docs/guides/esp32/build_app_and_commission.md) guides.
+To compile follow the [connectedhomeip](https://github.com/project-chip/connectedhomeip/blob/bc8c9ece127e42033543ecfa7b03341e6dcff1cc/docs/guides/esp32/setup_idf_chip.md) environment setup and [application usage](https://github.com/project-chip/connectedhomeip/blob/bc8c9ece127e42033543ecfa7b03341e6dcff1cc/docs/guides/esp32/build_app_and_commission.md) guides.
 
 Please include a link to the connectedhomeip repo as follows:
 
