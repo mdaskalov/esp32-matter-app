@@ -29,6 +29,7 @@ Edit the `app.zap` file with the ZAP gui and then generate the `app.matter` file
 
 ```
 cd main/zap
+export ZAP_DEVELOPMENT_PATH=../../third_party/connectedhomeip/scripts/tools/zap
 ../../third_party/connectedhomeip/scripts/tools/zap/run_zaptool.sh app.zap
 zap-cli -z ../../third_party/connectedhomeip/src/app/zap-templates/zcl/zcl.json -g /Users/milko/repos/connectedhomeip/src/app/zap-templates/matter-idl.json -i app.zap -o . generate
 mv Clusters.matter app.matter
